@@ -1,17 +1,10 @@
 @import './base.css';
 
-html,body,#app {
-  height: 100vh;
-  overflow: hidden;
-}
-
 #app {
-  width: 100%;
-  height: 100%;
-  /* max-width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  font-weight: normal; */
+  font-weight: normal;
 }
 
 a,
@@ -34,9 +27,9 @@ a,
     place-items: center;
   }
 
-  /* #app {
+  #app {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
-  } */
+  }
 }
